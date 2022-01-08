@@ -1,7 +1,7 @@
 # Summary
 
 # CLI
-- [Introduction]()
+- [Introduction](cli/1_intro.md)
 # TUI
 - [Introduction]()
 # GUI
