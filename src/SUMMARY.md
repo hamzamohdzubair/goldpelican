@@ -1,5 +1,7 @@
 # Summary
 
+- [Introduction](1_intro.md)
+
 # CLI
 
 - [Introduction](cli/1_intro.md)
