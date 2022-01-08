@@ -1,44 +1,40 @@
 # Summary
 
-- [Introduction](1_intro.md)
+[Introduction](1_intro.md)
 
 # CLI
 
-- [Introduction](cli/1_intro.md)
+- [What is CLI?](cli/1_intro.md)
 
 # TUI
 
-- [Introduction]()
+- [WIP]()
 
 # GUI
 
-- [Introduction]()
+- [WIP]()
 
 # API
 
-- [Introduction]()
+- [WIP]()
 
 # WUI
 
-- [Introduction]()
+- [What is WUI?](wui/1_what.md)
+- [Rust Ecosystem](wui/2_rust_eco.md)
 
 # AUI
 
-- [Introduction]()
-
-# GI
-
-- [Introduction]()
+- [WIP]()
 
 # PI
 
-- [Introduction]()
+- [WIP]()
 
-# ML
+# GI
 
-- [Introduction]()
+- [WIP]()
 
+# AI
 
-
-
-
+- [WIP]()
