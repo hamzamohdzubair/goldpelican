@@ -1,14 +1,14 @@
 # Summary
 
-[Introduction](1_intro.md)
+[Introduction](intro.md)
 
 # CLI
 
-- [What is CLI?](cli/1_intro.md)
+- [What is CLI?](cli/what.md)
 
 # TUI
 
-- [WIP]()
+- [Examples](tui/examples.md)
 
 # GUI
 
@@ -20,8 +20,8 @@
 
 # WUI
 
-- [What is WUI?](wui/1_what.md)
-- [Rust Ecosystem](wui/2_rust_eco.md)
+- [What is WUI?](wui/what.md)
+- [Rust Ecosystem](wui/rust_eco.md)
 
 # AUI
 
