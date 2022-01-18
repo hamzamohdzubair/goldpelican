@@ -37,4 +37,4 @@
 
 # AI
 
-- [Resource Table](ai/resources.md)
+- [Resources](ai/resources.md)

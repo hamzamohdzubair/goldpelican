@@ -1,6 +1,16 @@
 # Resources
 
-| |Name|Type| |
-|---|---|---|---|
-|1|Andrew NG|Youtube Series|[:arrow_right:](https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN)
-|2|Daniel Friedman|HTML Book|[:arrow_right:](https://dafriedman97.github.io/mlbook/content/introduction.html)
+## Watch
+
+||Name|Author|Type||
+|---|---|---|---|---|
+|1|Machine Learning|Andrew NG|Youtube Series|[➡️](https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN)
+
+
+## Read
+
+||Name|Author|Type||
+|---|---|---|---|---|
+|2|ML from Scratch|Daniel Friedman|HTML Book|[➡️](https://dafriedman97.github.io/mlbook/content/introduction.html)
+|3|Short Articles on ML|Jason Brownlee|Blog|[➡️](https://machinelearningmastery.com/start-here/)
+|4|ML from Scratch|Jason Brownlee|Paid Book|[➡️](https://machinelearningmastery.com/master-machine-learning-algorithms/)
