@@ -37,4 +37,4 @@
 
 # AI
 
-- [WIP]()
+- [Resource Table](ai/resources.md)

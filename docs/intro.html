@@ -81,7 +81,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="intro.html" class="active">Introduction</a></li><li class="chapter-item expanded affix "><li class="part-title">CLI</li><li class="chapter-item expanded "><a href="cli/what.html"><strong aria-hidden="true">1.</strong> What is CLI?</a></li><li class="chapter-item expanded affix "><li class="part-title">TUI</li><li class="chapter-item expanded "><a href="tui/examples.html"><strong aria-hidden="true">2.</strong> Examples</a></li><li class="chapter-item expanded affix "><li class="part-title">GUI</li><li class="chapter-item expanded "><div><strong aria-hidden="true">3.</strong> WIP</div></li><li class="chapter-item expanded affix "><li class="part-title">API</li><li class="chapter-item expanded "><div><strong aria-hidden="true">4.</strong> WIP</div></li><li class="chapter-item expanded affix "><li class="part-title">WUI</li><li class="chapter-item expanded "><a href="wui/what.html"><strong aria-hidden="true">5.</strong> What is WUI?</a></li><li class="chapter-item expanded "><a href="wui/rust_eco.html"><strong aria-hidden="true">6.</strong> Rust Ecosystem</a></li><li class="chapter-item expanded affix "><li class="part-title">AUI</li><li class="chapter-item expanded "><div><strong aria-hidden="true">7.</strong> WIP</div></li><li class="chapter-item expanded affix "><li class="part-title">PI</li><li class="chapter-item expanded "><div><strong aria-hidden="true">8.</strong> WIP</div></li><li class="chapter-item expanded affix "><li class="part-title">GI</li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.</strong> WIP</div></li><li class="chapter-item expanded affix "><li class="part-title">AI</li><li class="chapter-item expanded "><div><strong aria-hidden="true">10.</strong> WIP</div></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="intro.html" class="active">Introduction</a></li><li class="chapter-item expanded affix "><li class="part-title">CLI</li><li class="chapter-item expanded "><a href="cli/what.html"><strong aria-hidden="true">1.</strong> What is CLI?</a></li><li class="chapter-item expanded affix "><li class="part-title">TUI</li><li class="chapter-item expanded "><a href="tui/examples.html"><strong aria-hidden="true">2.</strong> Examples</a></li><li class="chapter-item expanded affix "><li class="part-title">GUI</li><li class="chapter-item expanded "><div><strong aria-hidden="true">3.</strong> WIP</div></li><li class="chapter-item expanded affix "><li class="part-title">API</li><li class="chapter-item expanded "><div><strong aria-hidden="true">4.</strong> WIP</div></li><li class="chapter-item expanded affix "><li class="part-title">WUI</li><li class="chapter-item expanded "><a href="wui/what.html"><strong aria-hidden="true">5.</strong> What is WUI?</a></li><li class="chapter-item expanded "><a href="wui/rust_eco.html"><strong aria-hidden="true">6.</strong> Rust Ecosystem</a></li><li class="chapter-item expanded affix "><li class="part-title">AUI</li><li class="chapter-item expanded "><div><strong aria-hidden="true">7.</strong> WIP</div></li><li class="chapter-item expanded affix "><li class="part-title">PI</li><li class="chapter-item expanded "><div><strong aria-hidden="true">8.</strong> WIP</div></li><li class="chapter-item expanded affix "><li class="part-title">GI</li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.</strong> WIP</div></li><li class="chapter-item expanded affix "><li class="part-title">AI</li><li class="chapter-item expanded "><a href="ai/resources.html"><strong aria-hidden="true">10.</strong> Resource Table</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -144,7 +144,7 @@
                     <main>
                         <h1 id="introduction"><a class="header" href="#introduction">Introduction</a></h1>
 <h2 id="what-is-this-book-about"><a class="header" href="#what-is-this-book-about">What is this book about?</a></h2>
-<p>Rust in the last few years has turned out to be a powerful programmign language that can be used in several settings for many different tasks. In this book we will learn how to build a simple application for each of the following settings:</p>
+<p>Rust in the last few years has turned out to be a powerful programming language that can be used in several settings for many different tasks. In this book we will learn how to build a simple application for each of the following settings:</p>
 <ul>
 <li>CLI: Command Line Interface</li>
 <li>TUI: Terminal User Interface</li>
@@ -154,16 +154,18 @@
 <li>AUI: App User Interface</li>
 <li>PI: Physical Interface (Embedded)</li>
 <li>GI: Game Interface (Game Engines)</li>
-<li>AI: Artifical Intelligence</li>
+<li>AI: Artificial Intelligence</li>
 </ul>
-<p>First we'll look at what is the current state of technology for each domain. What libraries are present. For each domain we'll try to do an exhaustive comparison of different crates and libraries present. Then we will proceed to select one or two and build a simple application.</p>
+<p>Before we even begin looking at the rust ecosystem, however, we will need to understand a bit about the field itself. Most of these domains rarely overlap in a person's career, for example a person involved in building web user interfaces rarely writes code for embedded applications, similarly a data scientist working on AI code wouldn't even know where to begin writing a game, (generally). So we will need context, not a lot of it, only enough to get started.</p>
+<p>For each domain we will also provide a list of resources for further study and analysis.</p>
+<p>Then we'll look at what is the current state of technology for each domain. What libraries are present. For each domain we'll try to do an exhaustive comparison of different crates and libraries present. Then we will proceed to select one or two and build a simple application.</p>
 <h2 id="motivation"><a class="header" href="#motivation">Motivation</a></h2>
 <blockquote>
 <p>I don't believe that you should use the most suitable language for a specific domain or problem at all costs. I think consistency among your / company projects, productivity and simplicity should have the highest priority. And Rust is a very universal language so I think it's a good choice for almost all cases.</p>
 <p>-- <a href="https://github.com/MartinKavik">Martin Kavik</a> (Creator of <a href="https://moonzoon.rs">MoonZoon</a>)</p>
 </blockquote>
 <h2 id="future-goal"><a class="header" href="#future-goal">Future Goal</a></h2>
-<p>One of the goals of this book is also to be able to build an app with fixed buisness logic and a changeable interface.</p>
+<p>One of the goals of this book is also to be able to build an app with fixed business logic and a changeable interface.</p>
 
                     </main>
 
