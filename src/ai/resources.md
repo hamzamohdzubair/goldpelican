@@ -2,7 +2,7 @@
 
 ||Name|Author|Type||
 |---|---|---|---|---|
-|**Watch**|
+|<td colspan=5>**Watch**|
 |1|Machine Learning|Andrew NG|Youtube Series|[➡️](https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN)
 |**Read**|
 |2|ML from Scratch|Daniel Friedman|HTML Book|[➡️](https://dafriedman97.github.io/mlbook/content/introduction.html)
