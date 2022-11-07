@@ -1,6 +1,8 @@
 # Summary
 
 [Introduction](intro.md)
+[Software Engineering](se/intro.md)
+    [Architecture](se/arch.md)
 
 # CLI
 
